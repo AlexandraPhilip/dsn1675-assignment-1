@@ -14,16 +14,18 @@ header{
 	padding-top: 1em;
 }
 header img{
-	width: 25px;
+	width: 105px;
+	position: absolute;
+	text-align: center;
+	left: calc(50% - 52.5px);
 }
 header h1{
-	display: inline;
+	display: inline-block;
+	height: 3em;
+	margin: 2em 0 0 0;
 }
 header nav li{
-	display: inline;
-	width: 25%;
-	float: left;
-	padding: .5em;
+	list-style-type: none;
 }
 header nav ol{
 	margin: 0;
