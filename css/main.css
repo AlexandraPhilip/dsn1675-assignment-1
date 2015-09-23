@@ -27,6 +27,11 @@ header h1{
 header nav li{
 	list-style-type: none;
 }
+header nav a {
+	display: block;
+	padding: .5em;
+	text-align: left;
+}
 header nav ol{
 	margin: 0;
 	padding: 0;
@@ -41,8 +46,10 @@ header a{
 	color: white;
 }
 .top img{
-	width: 111.6%;
-	margin: 0 -6%;
+	background-image: url(../images/maerten.jpg);
+	margin: 0 -4%;
+	padding: 1em;
+	background-size: cover;
 }
 .top p{
 	position: relative;
@@ -53,9 +60,14 @@ header a{
 	width: 100%;
 	text-shadow: 4px 4px 10px black;
 }
-.desc li{
+.desc div{
 	display: inline-block;
-	width: 32%;
+	width: 100%;
+	vertical-align: top;
+}
+.desc li{
+display: inline-block;
+width: 32%;
 }
 .desc{
 	padding: 0;
@@ -94,7 +106,8 @@ h2{
 	padding: .25em;
 	color: white;
 	position: relative;
-	bottom: 7px;
+	width: 80%;
+	left: 11%;
 }
 .price{
 	width: 100%;
@@ -103,8 +116,8 @@ h2{
 .price div{
 	background-color: black;
 	padding: 1em 1em;
-	margin: 0 2.5%;
-	width: 44%;
+	margin: 0.25em 0;
+	width: 100%;
 	display: inline-block;
 	border-radius: 0.25em;
 }
@@ -119,8 +132,14 @@ main li{
 	display: inline;
 }
 .top2 img{
-	width: 111.6%;
-	margin: 0 -6%;
+	background-image: url(../images/maroti.jpg);
+	margin: 0 -4%;
+	padding: 1em;
+	background-size: cover;
+	color: white;
+	text-align: center;
+	width: 108%;
+	text-shadow: 1px 2px 1px black;
 }
 .playing{
 	width: 111.6%;
